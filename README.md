@@ -7,7 +7,7 @@ Java Swing (NetBeans JFrame forms) + MySQL (XAMPP).
 1. Open **XAMPP Control Panel** and start **MySQL**.
 2. In NetBeans: *File → Open Project* → select this folder → **Run**.
 3. On first run the program creates the `inventory_db` database, its tables and sample data automatically.
-   (To set it up by hand instead, create `inventory_db` in phpMyAdmin and import `src/inventory/schema.sql`.)
+   (To set it up by hand instead, import `database/inventory_db.sql` in phpMyAdmin. It creates `inventory_db` with all tables, the view, the default accounts and the sample data.)
 
 Default accounts:
 
